@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {MerkleAirdrop} from "../../src/MerkleAirdrop.sol";
-import {BagelToken} from "../../src/BagelToken.sol";
+import {SunnyToken} from "../../src/SunnyToken.sol";
 import {Test} from "forge-std/Test.sol";
 import {console} from "forge-std/console.sol";
 import {DeployMerkleAirdrop} from "../../script/DeployMerkleAirdrop.s.sol";
