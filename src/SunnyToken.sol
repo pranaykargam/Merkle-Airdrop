@@ -10,9 +10,9 @@ contract SunnyToken is ERC20, Ownable {
         // rather than minting a fixed supply at deployment.
     }
 
-    // function mint(address to, uint256 amount) external onlyOwner {
-    //     _mint(to, amount);
-    // }
+    function mint(address to, uint256 amount) external onlyOwner {
+        _mint(to, amount);
+    }
 }
 
 
